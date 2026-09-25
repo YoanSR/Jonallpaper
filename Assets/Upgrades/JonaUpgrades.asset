@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b899a48962e048298b8cd8577482cb65, type: 3}
+  m_Name: JonaUpgrades
+  m_EditorClassIdentifier: Assembly-CSharp::JonaUpgrades
+  Sprite: {fileID: 0}
+  Name: 
+  Description: 
+  Price: 0
+  OneTimeUpgrade: 0
+  PriceIncrement: 0
+  Type: 0
+  JonathanPerSecond: 0
+  PowerIncrease: 0
+  IsOnActiveUpgrade: 0
+  ActiveUpgradeIncrease: {fileID: 0}

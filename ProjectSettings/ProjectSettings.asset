@@ -16,9 +16,9 @@ PlayerSettings:
   productName: Exos
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_SplashScreenBackgroundColor: {r: 1, g: 0.6179246, b: 0.7134436, a: 1}
   m_ShowUnitySplashScreen: 1
-  m_ShowUnitySplashLogo: 1
+  m_ShowUnitySplashLogo: 0
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
@@ -39,8 +39,10 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_SplashScreenLogos:
+  - logo: {fileID: -4384629866809640994, guid: 5221c50ca736bfc42adc6bc008bffc05, type: 3}
+    duration: 2.37
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: be1e416165caca04b9f1307c7144dfc2, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -300,7 +302,14 @@ PlayerSettings:
   AndroidAppBundleSizeToValidate: 150
   AndroidReportGooglePlayAppDependencies: 1
   androidSymbolsSizeThreshold: 800
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: d3e920638a2eeab46a729f4a844c105b, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
@@ -800,7 +809,7 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourceLandscape: {fileID: -4384629866809640994, guid: 5221c50ca736bfc42adc6bc008bffc05, type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
@@ -832,7 +841,25 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    EmbeddedLinux: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    GameCoreScarlett: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    GameCoreXboxOne: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    Kepler: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    LinuxHeadlessSimulation: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    Nintendo Switch: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    Nintendo Switch 2: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    PS4: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    PS5: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    QNX: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    Standalone: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    VisionOS: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    WebGL: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    Windows Store Apps: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    XboxOne: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    iPhone: DOTWEEN;DOTWEEN_NOPHYSICS2D
+    tvOS: DOTWEEN;DOTWEEN_NOPHYSICS2D
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
